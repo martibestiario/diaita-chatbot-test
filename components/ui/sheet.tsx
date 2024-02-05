@@ -16,7 +16,7 @@ const SheetPortal = ({
   className,
   children,
   ...props
-}: SheetPrimitive.DialogPortalProps) => (
+}: any) => (
   <SheetPrimitive.Portal
     className={cn('fixed inset-0 z-50 flex', className)}
     {...props}
